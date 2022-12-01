@@ -1,0 +1,105 @@
+.header {
+    padding: 5px;
+    text-align: center;
+    background: #b93505;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    background-image: linear-gradient(to bottom, #762122   , #340304);
+  }
+
+  
+body{ 
+    background-color:#8C8674 ;
+    background-image: linear-gradient(to bottom, #252525 ,#1a1918);
+    border-radius: 5px 5px 5px 5px;
+    border-color:#D98E04 ;
+}
+
+.gradient {
+    background-image: linear-gradient(to bottom,#fab430, #D98E04, #BF6B04);
+    color:#0D0D0D;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+  } 
+
+
+  #quadrado {
+    float:left;
+    width: 1305px;
+    height: 90px;
+    shape-outside: inset(20px, 20px);
+    background-image: linear-gradient(to bottom, #203d39, #254944, #203d39);
+}
+
+    
+    body {
+    color: white;
+    background-color:black;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+display:flex;
+justify-content: space-between;
+list-style-type: none;
+align-items: center;
+padding: 16px
+}
+
+a{color: white;
+text-decoration: none
+;}
+
+.Centro {
+    text-align: center;
+}
+
+h1{
+color: #D7A261;
+text-align: center;
+}
+h2{
+    color: #E2BE8B;
+}
+p{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif
+;}
+
+nav a:hover {
+    color: #864C00;
+}
+
+.reinos{
+    text-align: left;
+}
+
+.div1{
+    text-align: center;
+}
+
+.div2{
+    text-align: center;
+}
+
+.div3{
+    text-align: center;
+}
+
+.div4{
+    text-align: center;
+}
+
+.div5{
+    text-align: center;
+}
+
+.div6{
+    text-align: center;
+}
+
+.div7{
+    text-align: right;
+}

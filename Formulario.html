@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulário </title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon/png"  href="C:\Users\onepi\Downloads\BF site sylvia\kisspng-nelumbo-nucifera-nymphaea-lotus-egyptian-lotus-cli-yoga-pattern-5ae911ae8f9947.5673581315252238545882.png">
+    <script type = "text/javascript">
+        
+        
+
+
+
+
+var mensage;
+
+function load() {
+    mensage = prompt("Digite Como você quer ser chamado : ");
+}
+function touch(){
+    alert(mensage);
+}
+
+</script>
+
+
+<div class="header">
+       
+       <img src="imagem_2022-11-26_213038280-removebg-preview.png "  style="width:100%;max-width:300px"> </img>
+     </div>     
+     
+     <style>
+
+        @font-face {
+            font-family: 'BF';
+            src: url('Inconsolata.ttf') format('truetype'), url('Inconsolata.otf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        
+        
+        
+        }
+        body {
+
+
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        p {
+
+            
+            font-family: 'BF', Times, serif;
+            font-size:  2em;
+            font-weight:normal;
+        }
+        .navbar {
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, #8f2809, #5a2b14 );
+    font-family: 'Arial';
+  }
+  
+
+
+      </style>
+
+   
+
+
+</head>
+<body onload = 'load()'>
+
+    
+
+    <nav class="navbar navbar-light" style="background-color: #746CC0;">
+        <ul>
+            <li>
+                <a href="index.html"> Página Inicial </a>
+            </li>
+            <li>
+                <a href="Reinos.html">Reinos</a>
+            </li>
+            <li>
+                <a href="Herois.html">Heróis</a>
+            </li>
+            <li>
+                <a href="Formulario.html">Formulário</a>
+            </li>
+            <li>
+                <a href="Armas - Black Fire Ark.V.html"> Armas </a>
+            </li>
+            <li>
+                <a href="Musicas-Tema - Black Fire Ark.V.html"> Músicas-Tema </a>
+            </li>
+    
+        </ul>
+     </nav>  
+ 
+ <h1>
+
+   Formulário Da Taverna Pé De Porco
+
+</h1>
+
+
+<h3>
+
+    Bem vindo á taverna Pé de porco, aqui é onde aventureiros se encontram para celebrar suas aventuras e esquecer de algumas derrotas, também contamos com um sistema de missões, caso queira entrar, crie seu personagem e entre nesse mundo preenchendo a ficha abaixo! :
+
+</h3>
+<br> <br>
+
+<form name  = "Sua Ficha" action = “https://www.heroforge.com” METHOD=“POST”>
+    <B> Nome Completo:</B>
+    <br>
+    <input type="text" name="Nome" size="30" maxlength="20">
+
+    </textarea>
+<br> <br>
+
+<b> Altura Do Seu Personagem:</b>
+<br> 
+<input type="text" name="Altura" size="30" maxlength="20">
+
+<br> <br>
+
+<B> Diga agora seu código secreto de personagem:</B>
+<br> 
+<input type="password" name ="Senha Secreta" size="30" maxlength="20">
+<br> <br>
+<label for="classe">escolha uma classe de luta:</label>
+<select name="classe" id="classe">
+<br>
+<option value="Guerreiro">Guerreiro</option>
+<option value="Ladino">Ladino</option>
+<option value="Mago">Mago</option>
+<option value="Arqueiro">Arqueiro</option>
+</select>
+<br> <br>
+
+<b> Qual seu genêro? :</b>
+<br>
+
+<input type="radio" name="genero" value="1"> Masculino
+<br>
+<input type="radio" name="genero" value="2"> Feminino
+<br>
+<input type="radio" name="genero" value="3"> Outro.
+<br> <br>
+
+<b> Qual seria a sua raça? :</b>
+<br>
+
+<input type="radio" name="raça" value="1"> Humano
+<br>
+<input type="radio" name="raça" value="2"> Elfo
+<br>
+<input type="radio" name="raça" value="3"> Anão
+<br> 
+<input type="radio" name="raça" value="3"> Draconato
+<br>
+<input type="radio" name="raça" value="3"> Orc
+<br><br>
+
+
+<b> Quais linguas você fala? : </b>
+<br>
+<input type="checkbox" name="lingua" value="1"> Celestial
+<BR>
+<input type="checkbox" name="lingua" value="2"> Dracônico
+<br>
+<input type="checkbox" name="lingua" value="3"> Elfico
+<br>
+<input type="checkbox" name="lingua" value="4" checked> Geral
+<br>
+<input type="checkbox" name="lingua" value="5"> Abissal
+<br> <br>
+
+<input type="button" value="Finalizar a Criação de personagem" onclick='alert("Parabéns " + mensage + "! Seu personagem foi registrado, Clique em enviar dados para enviar aos nossos escribas!")'>
+<input type="reset" name="reset" value="Resetar">
+
+<br> <br>
+
+
+<input type="submit" name ="submit" value="Enviar Dados" onclick='alert("Suas informações foram registradas")'> 
+
+
+</form> 
+<hr>
+<h3> Agora que você finalizou a criação do seu personagem, vai precisar de equipamentos! Para isso disponibilizamos um sistema de empréstimo para nossos usuários, acesse clicando aqui:</h3>
+
+
+
+<a href="C:\Users\onepi\Downloads\BF site sylvia\testecalculadora.html"><button style="background: #c23e06; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;">Quero empréstimo</button></a>
+
+
+
+
+
+</body>
+
+ </html>
